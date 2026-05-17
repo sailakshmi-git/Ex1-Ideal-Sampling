@@ -31,7 +31,7 @@ xr = resample(xs, len(t))
 #Plot
 
 plt.figure(figsize=(10,8))
-plt.suptitle("NAME : RITHISH\nREG NO : 212224060216", fontsize=12, fontweight='bold')
+plt.suptitle("NAME : SAILAKSHMI\nREG NO : 212224060227", fontsize=12, fontweight='bold')
 plt.subplot(3,1,1)
 plt.plot(t, x)
 plt.title("Continuous Signal (fs = 100 Hz)")
@@ -82,7 +82,7 @@ rec = lfilter(b, a, nat)
 # Plot
 
 plt.figure(figsize=(10,9))
-plt.suptitle("NAME: RITHISH S\nREG NO: 212224060216", fontsize=12, fontweight='bold')
+plt.suptitle("NAME: SAILAKSHMI \nREG NO: 212224060227", fontsize=12, fontweight='bold')
 plt.subplot(4,1,1) 
 plt.plot(t, m) 
 plt.title("Message Signal") 
@@ -137,7 +137,7 @@ recon = lfilter(b, a, flat)
 
 # Plot
 plt.figure(figsize=(10,9))
-plt.suptitle ("NAME: KRITHI.V\nREG NO: 212224060128",
+plt.suptitle ("NAME: SAILAKSHMI \nREG NO: 212224060227",
               fontsize=12, fontweight='bold')
 
 plt.subplot(4,1,1)
@@ -164,17 +164,17 @@ plt.show()
 ## OUTPUT WAVEFORM:
 #### IDEAL SAMPLING:
 
-<img width="999" height="780" alt="image" src="https://github.com/user-attachments/assets/ade5a95d-f736-4294-99f3-68b052605ddb" />
+<img width="1242" height="992" alt="image" src="https://github.com/user-attachments/assets/d0f32f0e-795c-4233-acf9-a87b9b92af1e" />
 
 
 #### NATURAL SAMPLING:
 
-<img width="1000" height="785" alt="image" src="https://github.com/user-attachments/assets/fa4e9d2b-a560-4b95-89c7-87a97e6eb221" />
+<img width="1237" height="1121" alt="image" src="https://github.com/user-attachments/assets/1ac6b20c-aa66-4fcf-a9fb-ebe5db51c572" />
 
 
 #### FLAT-TOP SAMPLING:
 
-<img width="993" height="773" alt="image" src="https://github.com/user-attachments/assets/ba183bc7-8528-4aca-a888-dd2b645e7d84" />
+<img width="1236" height="1126" alt="image" src="https://github.com/user-attachments/assets/9c1e6e95-9d38-4a4d-ba92-6afa77cb87b0" />
 
 
 ## RESULT:
